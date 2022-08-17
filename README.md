@@ -1,6 +1,9 @@
 # How-To-Do-Stuff
 A Collection of guides for sometimes very niche topics.
 
-Folder structure is self explainatory I believe.
+### Table of Contents
+1. [Android](#https://github.com/ReisMiner/How-To-Do-Stuff/tree/master/Android)
+   - [[Root] Get Steam Guard TOTP Secret](#fourth-examplehttpwwwfourthexamplecom)
+1. [Linux](#)
+    - *coming soon*
 
-If you have a guide yourself that you wanna add, feel free to make a PR!
