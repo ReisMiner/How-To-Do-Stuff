@@ -18,4 +18,5 @@ max-cache-ttl 7200
 - [export your gpg key as ssh-key](https://github.com/ReisMiner/How-To-Do-Stuff/blob/master/Linux/How%20To%20export%20GPG%20key%20as%20SSH%20key.md)
 - add the key to your git host (github/gitlab/etc)
 - enter this in powershell to configure git to use putty for the yubikey support `git config --global core.sshcommand 'plink -agent'`
-  - remove it again by using `git config core.sshcommand --unset--all`
+  - remove it again by using `git config --unset-all core.sshcommand`
+  - if that did not work use `git config core.sshcommand ssh` to set the ssh agent to windows default
