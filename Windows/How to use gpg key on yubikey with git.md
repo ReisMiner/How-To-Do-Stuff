@@ -20,3 +20,4 @@ max-cache-ttl 7200
 - enter this in powershell to configure git to use putty for the yubikey support `git config --global core.sshcommand 'plink -agent'`
   - remove it again by using `git config --unset-all core.sshcommand`
   - if that did not work use `git config core.sshcommand ssh` to set the ssh agent to windows default
+- enter this in powershell to make git use the correct gpg executable `git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"`
